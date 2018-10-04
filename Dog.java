@@ -2,9 +2,13 @@ public class Dog extends Canine {
 	
 	private String breed;
 	
+	public Dog(){
+		isDomesticated=true;
+	}
+	
 	public Dog(String b){
 		setBreed(b);
-		isDomesticated = true;
+		isDomesticated=true;
 	}
 	
 	public void setBreed(String b){
